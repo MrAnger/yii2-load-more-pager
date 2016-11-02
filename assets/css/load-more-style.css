@@ -1,0 +1,8 @@
+.load-more-loader {
+    display: inline-block;
+    vertical-align: sub;
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    background: url("loader.gif");
+}

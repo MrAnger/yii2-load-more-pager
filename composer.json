@@ -1,0 +1,28 @@
+{
+  "name": "mranger/yii2-load-more-pager",
+  "description": "Yii2 widget pagination looking like it is \"Load more\" button.",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "pagination",
+    "widget",
+    "load more",
+    "button"
+  ],
+  "license": "GNU General Public License v3.0",
+  "authors": [
+    {
+      "name": "MrAnger",
+      "email": "slava.sharapov1992@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/MrAnger/yii2-load-more-pager/issues",
+    "source": "https://github.com/MrAnger/yii2-load-more-pager"
+  },
+  "autoload": {
+    "psr-4": {
+      "mranger\\load_more_pager\\": ""
+    }
+  }
+}
