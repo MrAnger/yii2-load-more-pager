@@ -68,6 +68,13 @@
                     if (params.onLoad) {
                         params.onLoad(params);
                     }
+                    
+                    $.ajaxSetup({
+                        beforeSend: function(xhr) {
+                            xhr.setRequestHeader('X-PJAX', 'true');
+                            xhr.setRequestHeader('X-PJAX-Container', params.contentSelector);
+                        }
+                    });
 
                     $.ajax({
                         url: urlToLoad,
